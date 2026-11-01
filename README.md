@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.svg" width="100%" alt="Luís Felipe Carreira Rosa — Computer Engineering at Insper. Robotics, computer vision and autonomous systems." />
+  <img src="./assets/header.svg" width="100%" alt="Luís Felipe Carreira Rosa — Computer Engineering at Insper. AI, data science, computer vision and robotics." />
 </p>
 
 <p align="center">
@@ -14,7 +14,7 @@
 
 <a id="english"></a>
 <p align="center">
-  <img src="./assets/about-en.svg" width="100%" alt="About me: Computer Engineering student at Insper focused on robotics and computer vision; Captain of SkyFox at SMASH Robotics League; Teaching Assistant in Data Science at Insper; HR Director at Insper Code Jr.; open to internships and summer programs in data, AI and engineering." />
+  <img src="./assets/about-en.svg" width="100%" alt="About me: Computer Engineering student at Insper interested in AI, data science, computer vision and autonomous systems; Teaching Assistant in Data Science at Insper; HR Director at Insper Code Jr.; Captain of SkyFox at SMASH Robotics League; open to internships and summer programs in data, AI, technology and engineering." />
 </p>
 <p align="center">
   <img src="./assets/roles-en.svg" width="100%" alt="Teaching Assistant, Data Science at Insper; HR Director at Insper Code Jr.; Captain of SkyFox at SMASH Robotics League." />
@@ -22,7 +22,7 @@
 
 <a id="portugues"></a>
 <p align="center">
-  <img src="./assets/about-pt.svg" width="100%" alt="Sobre mim: estudante de Engenharia da Computação no Insper com foco em robótica e visão computacional; capitão da SkyFox na Liga SMASH Robotics; monitor de Ciência dos Dados no Insper; Diretor de RH da Insper Code Jr.; aberto a estágios e summer jobs em dados, IA e engenharia." />
+  <img src="./assets/about-pt.svg" width="100%" alt="Sobre mim: estudante de Engenharia da Computação no Insper com interesse em IA, ciência de dados, visão computacional e sistemas autônomos; monitor de Ciência dos Dados no Insper; Diretor de RH da Insper Code Jr.; capitão da SkyFox na Liga SMASH Robotics; aberto a estágios e summer jobs em dados, IA, tecnologia e engenharia." />
 </p>
 <p align="center">
   <img src="./assets/roles-pt.svg" width="100%" alt="Monitor de Ciência dos Dados no Insper; Diretor de RH na Insper Code Jr.; Capitão da SkyFox na Liga SMASH Robotics." />
