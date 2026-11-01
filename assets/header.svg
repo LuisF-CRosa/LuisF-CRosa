@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Luís Felipe Carreira Rosa — Computer Engineering at Insper. Robotics, computer vision and autonomous systems.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05080F"/>
+      <stop offset="1" stop-color="#0B1A2B"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#1B3A57" stroke-width="1" opacity="0.45"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0.45"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#22D3EE" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1200" height="320" rx="18"/></clipPath>
+    <clipPath id="type1"><rect x="60" y="150" height="40" width="0">
+      <animate attributeName="width" from="0" to="640" begin="0.4s" dur="1.6s" fill="freeze"/>
+    </rect></clipPath>
+    <clipPath id="type2"><rect x="60" y="190" height="40" width="0">
+      <animate attributeName="width" from="0" to="700" begin="2.1s" dur="2s" fill="freeze"/>
+    </rect></clipPath>
+    <style>
+      .mono { font-family: 'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace; }
+      .sans { font-family: 'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif; }
+      .blink { animation: blink 1.1s steps(1) infinite; }
+      .pulse { animation: pulse 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .pulse.d2 { animation-delay: 0.8s; }
+      .pulse.d3 { animation-delay: 1.6s; }
+      .radar { animation: spin 4s linear infinite; transform-box: view-box; transform-origin: 1000px 160px; }
+      .rotor { animation: spin 0.35s linear infinite; transform-box: fill-box; transform-origin: center; }
+      .scanline { animation: scan 5s linear infinite; }
+      .hover { animation: hover 3s ease-in-out infinite; }
+      @keyframes blink { 0%,50% { opacity: 1 } 50.01%,100% { opacity: 0 } }
+      @keyframes pulse { 0%,100% { opacity: .25; transform: scale(.8) } 50% { opacity: 1; transform: scale(1.25) } }
+      @keyframes spin { to { transform: rotate(360deg) } }
+      @keyframes scan { from { transform: translateY(-120px) } to { transform: translateY(340px) } }
+      @keyframes hover { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-5px) } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#grid)"/>
+    <rect class="scanline" x="0" y="0" width="1200" height="110" fill="url(#scan)"/>
+
+    <!-- status bar -->
+    <g class="mono" font-size="14" fill="#5B7A99">
+      <circle class="blink" cx="66" cy="44" r="5" fill="#34D399"/>
+      <text x="80" y="49" letter-spacing="2">SYS://LUISF-CROSA · ONLINE</text>
+      <text x="740" y="49" letter-spacing="2" text-anchor="end">v2026.2</text>
+    </g>
+    <line x1="60" y1="66" x2="760" y2="66" stroke="#1E4A6E" stroke-width="1"/>
+
+    <!-- name -->
+    <text class="sans" x="58" y="128" font-size="50" font-weight="700" fill="#E6F1FF" letter-spacing="0.5">Luís Felipe Carreira Rosa</text>
+
+    <!-- typed lines -->
+    <g class="mono" font-size="22">
+      <g clip-path="url(#type1)">
+        <text x="60" y="178" fill="#22D3EE"><tspan fill="#34D399">$</tspan> computer_engineering --at insper</text>
+      </g>
+      <g clip-path="url(#type2)">
+        <text x="60" y="218" fill="#9FB4C8"><tspan fill="#34D399">&gt;</tspan> robotics · computer vision · autonomous systems</text>
+      </g>
+      <rect class="blink" x="62" y="230" width="12" height="4" fill="#22D3EE"/>
+    </g>
+
+    <!-- telemetry bar -->
+    <g class="mono" font-size="13" fill="#5B7A99" letter-spacing="1.5">
+      <line x1="60" y1="262" x2="760" y2="262" stroke="#1E4A6E" stroke-width="1"/>
+      <text x="60" y="290">LAT -23.598 · LON -46.677 · ALT 760m · MODE <tspan fill="#34D399">AUTONOMOUS</tspan></text>
+    </g>
+
+    <!-- radar -->
+    <circle cx="1000" cy="160" r="135" fill="url(#glow)"/>
+    <g fill="none" stroke="#22D3EE">
+      <circle cx="1000" cy="160" r="125" stroke-opacity="0.35"/>
+      <circle cx="1000" cy="160" r="85" stroke-opacity="0.25"/>
+      <circle cx="1000" cy="160" r="45" stroke-opacity="0.2"/>
+      <path d="M875 160H1125M1000 35V285" stroke-opacity="0.18"/>
+    </g>
+    <g class="radar">
+      <path d="M1000 160 L1125 160 A125 125 0 0 0 1088.4 71.6 Z" fill="url(#sweep)"/>
+    </g>
+    <g fill="#34D399">
+      <circle class="pulse" cx="1062" cy="104" r="4"/>
+      <circle class="pulse d2" cx="932" cy="214" r="4"/>
+      <circle class="pulse d3" cx="1078" cy="226" r="3"/>
+    </g>
+
+    <!-- quadrotor -->
+    <g class="hover">
+      <g stroke="#E6F1FF" stroke-width="3" stroke-linecap="round">
+        <path d="M972 132L1028 188M1028 132L972 188"/>
+      </g>
+      <rect x="988" y="148" width="24" height="24" rx="5" fill="#0B1A2B" stroke="#22D3EE" stroke-width="2"/>
+      <circle cx="1000" cy="160" r="3" fill="#34D399"/>
+      <g fill="none" stroke="#22D3EE" stroke-width="2">
+        <circle cx="972" cy="132" r="13" stroke-opacity="0.6"/>
+        <circle cx="1028" cy="132" r="13" stroke-opacity="0.6"/>
+        <circle cx="972" cy="188" r="13" stroke-opacity="0.6"/>
+        <circle cx="1028" cy="188" r="13" stroke-opacity="0.6"/>
+      </g>
+      <g stroke="#E6F1FF" stroke-width="2" stroke-linecap="round">
+        <path class="rotor" d="M962 132H982"/>
+        <path class="rotor" d="M1018 132H1038"/>
+        <path class="rotor" d="M962 188H982"/>
+        <path class="rotor" d="M1018 188H1038"/>
+      </g>
+    </g>
+    <text class="mono" x="1000" y="306" font-size="12" fill="#5B7A99" text-anchor="middle" letter-spacing="2">TARGET LOCK · 3 OBJECTS</text>
+
+    <rect x="1" y="1" width="1198" height="318" rx="17" fill="none" stroke="#1E4A6E" stroke-width="2"/>
+  </g>
+</svg>
