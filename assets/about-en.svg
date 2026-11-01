@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 569" width="1200" height="569" role="img" aria-label="I'm Luís Felipe, a Computer Engineering student at Insper, in São Paulo. I'm drawn to systems that sense the world and act on it, so most of my time goes into robotics and computer vision: from ROS 2 nodes on a TurtleBot3 to the perception pipeline of an autonomous drone. At the SMASH Robotics League I captain SkyFox, the team building Tails, an autonomous quadrotor for the SAE Brasil EletroQuad. The role is half engineering and half leadership: shaping the autonomy stack on PX4, ROS 2 and Gazebo, running the team's infrastructure and website, and keeping everyone aligned on what comes next. I'm a Teaching Assistant in Data Science at Insper, helping students turn Python and statistics into analyses that answer real questions. I'm also HR Director at Insper Code Jr., where I joined as a web developer and now lead member selection and onboarding. Open to internships and summer programs in data, AI and engineering.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 691" width="1200" height="691" role="img" aria-label="I'm Luís Felipe, a Computer Engineering student at Insper, in São Paulo. I like turning technology into real value, whether that means analyzing data to support a decision, building an autonomous system or helping a team grow. My interests span AI, data science, computer vision and autonomous systems, and I'm also curious about technology in the financial market. As a Teaching Assistant in Data Science, I help students turn Python and statistics into analyses that answer real questions. I review projects, spot where students get stuck and explain technical results in plain language. At Insper Code Jr., Insper's software junior enterprise, I'm the HR Director. I joined as a web developer and today I lead member selection and onboarding, making sure new people find their place and grow with the team. At the SMASH Robotics League I captain SkyFox, the team building Tails, an autonomous quadrotor for the SAE Brasil EletroQuad. The role is half engineering and half leadership: shaping the autonomy stack on PX4, ROS 2 and Gazebo and keeping everyone aligned on what comes next. Open to internships and summer programs in data, AI, technology and engineering.">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#05080F"/>
@@ -12,7 +12,7 @@
       <stop offset="0.5" stop-color="#22D3EE" stop-opacity="0.07"/>
       <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
     </linearGradient>
-    <clipPath id="frame"><rect width="1200" height="569" rx="18"/></clipPath>
+    <clipPath id="frame"><rect width="1200" height="691" rx="18"/></clipPath>
     <style>
       .mono { font-family: 'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace; }
       .sans { font-family: 'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif; }
@@ -21,12 +21,12 @@
       .scanline { animation: scan 6s linear infinite; }
       @keyframes fade { from { opacity: 0; transform: translateX(-8px) } to { opacity: 1; transform: none } }
       @keyframes blink { 0%,50% { opacity: 1 } 50.01%,100% { opacity: 0 } }
-      @keyframes scan { from { transform: translateY(-120px) } to { transform: translateY(589px) } }
+      @keyframes scan { from { transform: translateY(-120px) } to { transform: translateY(711px) } }
     </style>
   </defs>
   <g clip-path="url(#frame)">
-    <rect width="1200" height="569" fill="url(#bg)"/>
-    <rect width="1200" height="569" fill="url(#grid)"/>
+    <rect width="1200" height="691" fill="url(#bg)"/>
+    <rect width="1200" height="691" fill="url(#grid)"/>
     <rect class="scanline" width="1200" height="110" fill="url(#scan)"/>
     <!-- barra de título -->
     <rect width="1200" height="48" fill="#08111D"/>
@@ -36,46 +36,56 @@
     <circle cx="68" cy="24" r="6" fill="#34D399"/>
     <text class="mono" x="600" y="29" font-size="13.5" fill="#5B7A99" text-anchor="middle" letter-spacing="1">~/luisf-crosa/about_me.md</text>
     <text class="mono" x="1172" y="29" font-size="12" fill="#34D399" text-anchor="end" letter-spacing="2">● LIVE</text>
-    <line x1="52" y1="48" x2="52" y2="569" stroke="#14304A"/>
-    <g class="fade" style="animation-delay:0.3s">
+    <line x1="52" y1="48" x2="52" y2="691" stroke="#14304A"/>
+    <g class="fade" style="animation-delay:0.30s">
     <text class="mono" x="40" y="92" font-size="13" fill="#3A5874" text-anchor="end">01</text>
     <text class="mono" x="64" y="92" font-size="14.5" fill="#22D3EE" letter-spacing="1.5">// WHO</text>
     <text class="mono" x="40" y="119" font-size="13" fill="#3A5874" text-anchor="end">02</text>
-    <text class="sans" x="64" y="119" font-size="16.5" fill="#9FB4C8">I'm <tspan fill="#E6F1FF" font-weight="700">Luís</tspan> <tspan fill="#E6F1FF" font-weight="700">Felipe</tspan>, a Computer Engineering student at <tspan fill="#E6F1FF" font-weight="700">Insper</tspan>, in São Paulo. I'm drawn to systems that sense</text>
+    <text class="sans" x="64" y="119" font-size="16.5" fill="#9FB4C8">I'm <tspan fill="#E6F1FF" font-weight="700">Luís</tspan> <tspan fill="#E6F1FF" font-weight="700">Felipe</tspan>, a Computer Engineering student at <tspan fill="#E6F1FF" font-weight="700">Insper</tspan>, in São Paulo. I like turning technology into</text>
     <text class="mono" x="40" y="146" font-size="13" fill="#3A5874" text-anchor="end">03</text>
-    <text class="sans" x="64" y="146" font-size="16.5" fill="#9FB4C8">the world and act on it, so most of my time goes into robotics and computer vision: from ROS 2 nodes on a</text>
+    <text class="sans" x="64" y="146" font-size="16.5" fill="#9FB4C8">real value, whether that means analyzing data to support a decision, building an autonomous system or</text>
     <text class="mono" x="40" y="173" font-size="13" fill="#3A5874" text-anchor="end">04</text>
-    <text class="sans" x="64" y="173" font-size="16.5" fill="#9FB4C8">TurtleBot3 to the perception pipeline of an autonomous drone.</text>
+    <text class="sans" x="64" y="173" font-size="16.5" fill="#9FB4C8">helping a team grow. My interests span <tspan fill="#E6F1FF" font-weight="700">AI,</tspan> <tspan fill="#E6F1FF" font-weight="700">data</tspan> <tspan fill="#E6F1FF" font-weight="700">science,</tspan> <tspan fill="#E6F1FF" font-weight="700">computer</tspan> <tspan fill="#E6F1FF" font-weight="700">vision</tspan> <tspan fill="#E6F1FF" font-weight="700">and</tspan> <tspan fill="#E6F1FF" font-weight="700">autonomous</tspan> <tspan fill="#E6F1FF" font-weight="700">systems</tspan>, and I'm</text>
+    <text class="mono" x="40" y="200" font-size="13" fill="#3A5874" text-anchor="end">05</text>
+    <text class="sans" x="64" y="200" font-size="16.5" fill="#9FB4C8">also curious about technology in the financial market.</text>
     </g>
-    <g class="fade" style="animation-delay:0.8s">
-    <text class="mono" x="40" y="214" font-size="13" fill="#3A5874" text-anchor="end">05</text>
-    <text class="mono" x="64" y="214" font-size="14.5" fill="#22D3EE" letter-spacing="1.5">// SMASH ROBOTICS</text>
+    <g class="fade" style="animation-delay:0.75s">
     <text class="mono" x="40" y="241" font-size="13" fill="#3A5874" text-anchor="end">06</text>
-    <text class="sans" x="64" y="241" font-size="16.5" fill="#9FB4C8">At the <tspan fill="#E6F1FF" font-weight="700">SMASH</tspan> <tspan fill="#E6F1FF" font-weight="700">Robotics</tspan> <tspan fill="#E6F1FF" font-weight="700">League</tspan> I captain <tspan fill="#E6F1FF" font-weight="700">SkyFox</tspan>, the team building Tails, an autonomous quadrotor for the</text>
+    <text class="mono" x="64" y="241" font-size="14.5" fill="#22D3EE" letter-spacing="1.5">// INSPER</text>
     <text class="mono" x="40" y="268" font-size="13" fill="#3A5874" text-anchor="end">07</text>
-    <text class="sans" x="64" y="268" font-size="16.5" fill="#9FB4C8">SAE Brasil EletroQuad. The role is half engineering and half leadership: shaping the autonomy stack on</text>
+    <text class="sans" x="64" y="268" font-size="16.5" fill="#9FB4C8">As a <tspan fill="#E6F1FF" font-weight="700">Teaching</tspan> <tspan fill="#E6F1FF" font-weight="700">Assistant</tspan> <tspan fill="#E6F1FF" font-weight="700">in</tspan> <tspan fill="#E6F1FF" font-weight="700">Data</tspan> <tspan fill="#E6F1FF" font-weight="700">Science</tspan>, I help students turn Python and statistics into analyses that</text>
     <text class="mono" x="40" y="295" font-size="13" fill="#3A5874" text-anchor="end">08</text>
-    <text class="sans" x="64" y="295" font-size="16.5" fill="#9FB4C8">PX4, ROS 2 and Gazebo, running the team's infrastructure and website, and keeping everyone aligned on what</text>
+    <text class="sans" x="64" y="295" font-size="16.5" fill="#9FB4C8">answer real questions. I review projects, spot where students get stuck and explain technical results in</text>
     <text class="mono" x="40" y="322" font-size="13" fill="#3A5874" text-anchor="end">09</text>
-    <text class="sans" x="64" y="322" font-size="16.5" fill="#9FB4C8">comes next.</text>
+    <text class="sans" x="64" y="322" font-size="16.5" fill="#9FB4C8">plain language.</text>
     </g>
-    <g class="fade" style="animation-delay:1.3s">
+    <g class="fade" style="animation-delay:1.20s">
     <text class="mono" x="40" y="363" font-size="13" fill="#3A5874" text-anchor="end">10</text>
-    <text class="mono" x="64" y="363" font-size="14.5" fill="#22D3EE" letter-spacing="1.5">// INSPER · CODE JR.</text>
+    <text class="mono" x="64" y="363" font-size="14.5" fill="#22D3EE" letter-spacing="1.5">// INSPER CODE JR.</text>
     <text class="mono" x="40" y="390" font-size="13" fill="#3A5874" text-anchor="end">11</text>
-    <text class="sans" x="64" y="390" font-size="16.5" fill="#9FB4C8">I'm a <tspan fill="#E6F1FF" font-weight="700">Teaching</tspan> <tspan fill="#E6F1FF" font-weight="700">Assistant</tspan> <tspan fill="#E6F1FF" font-weight="700">in</tspan> <tspan fill="#E6F1FF" font-weight="700">Data</tspan> <tspan fill="#E6F1FF" font-weight="700">Science</tspan> at Insper, helping students turn Python and statistics into</text>
+    <text class="sans" x="64" y="390" font-size="16.5" fill="#9FB4C8">At <tspan fill="#E6F1FF" font-weight="700">Insper</tspan> <tspan fill="#E6F1FF" font-weight="700">Code</tspan> <tspan fill="#E6F1FF" font-weight="700">Jr.</tspan>, Insper's software junior enterprise, I'm the <tspan fill="#E6F1FF" font-weight="700">HR</tspan> <tspan fill="#E6F1FF" font-weight="700">Director</tspan>. I joined as a web developer</text>
     <text class="mono" x="40" y="417" font-size="13" fill="#3A5874" text-anchor="end">12</text>
-    <text class="sans" x="64" y="417" font-size="16.5" fill="#9FB4C8">analyses that answer real questions. I'm also <tspan fill="#E6F1FF" font-weight="700">HR</tspan> <tspan fill="#E6F1FF" font-weight="700">Director</tspan> <tspan fill="#E6F1FF" font-weight="700">at</tspan> <tspan fill="#E6F1FF" font-weight="700">Insper</tspan> <tspan fill="#E6F1FF" font-weight="700">Code</tspan> <tspan fill="#E6F1FF" font-weight="700">Jr.</tspan>, where I joined as a web</text>
+    <text class="sans" x="64" y="417" font-size="16.5" fill="#9FB4C8">and today I lead member selection and onboarding, making sure new people find their place and grow with</text>
     <text class="mono" x="40" y="444" font-size="13" fill="#3A5874" text-anchor="end">13</text>
-    <text class="sans" x="64" y="444" font-size="16.5" fill="#9FB4C8">developer and now lead member selection and onboarding.</text>
+    <text class="sans" x="64" y="444" font-size="16.5" fill="#9FB4C8">the team.</text>
     </g>
-    <g class="fade" style="animation-delay:1.8s">
+    <g class="fade" style="animation-delay:1.65s">
     <text class="mono" x="40" y="485" font-size="13" fill="#3A5874" text-anchor="end">14</text>
-    <text class="mono" x="64" y="485" font-size="14.5" fill="#22D3EE" letter-spacing="1.5">// NEXT</text>
+    <text class="mono" x="64" y="485" font-size="14.5" fill="#22D3EE" letter-spacing="1.5">// SMASH ROBOTICS</text>
     <text class="mono" x="40" y="512" font-size="13" fill="#3A5874" text-anchor="end">15</text>
-    <text class="sans" x="64" y="512" font-size="16.5" fill="#9FB4C8">Open to <tspan fill="#E6F1FF" font-weight="700">internships</tspan> <tspan fill="#E6F1FF" font-weight="700">and</tspan> <tspan fill="#E6F1FF" font-weight="700">summer</tspan> <tspan fill="#E6F1FF" font-weight="700">programs</tspan> in data, AI and engineering.</text>
+    <text class="sans" x="64" y="512" font-size="16.5" fill="#9FB4C8">At the <tspan fill="#E6F1FF" font-weight="700">SMASH</tspan> <tspan fill="#E6F1FF" font-weight="700">Robotics</tspan> <tspan fill="#E6F1FF" font-weight="700">League</tspan> I captain <tspan fill="#E6F1FF" font-weight="700">SkyFox</tspan>, the team building Tails, an autonomous quadrotor for the</text>
+    <text class="mono" x="40" y="539" font-size="13" fill="#3A5874" text-anchor="end">16</text>
+    <text class="sans" x="64" y="539" font-size="16.5" fill="#9FB4C8">SAE Brasil EletroQuad. The role is half engineering and half leadership: shaping the autonomy stack on</text>
+    <text class="mono" x="40" y="566" font-size="13" fill="#3A5874" text-anchor="end">17</text>
+    <text class="sans" x="64" y="566" font-size="16.5" fill="#9FB4C8">PX4, ROS 2 and Gazebo and keeping everyone aligned on what comes next.</text>
     </g>
-    <rect class="blink" x="64" y="520" width="10" height="3" fill="#22D3EE"/>
-    <rect x="1" y="1" width="1198" height="567" rx="17" fill="none" stroke="#1E4A6E" stroke-width="2"/>
+    <g class="fade" style="animation-delay:2.10s">
+    <text class="mono" x="40" y="607" font-size="13" fill="#3A5874" text-anchor="end">18</text>
+    <text class="mono" x="64" y="607" font-size="14.5" fill="#22D3EE" letter-spacing="1.5">// NEXT</text>
+    <text class="mono" x="40" y="634" font-size="13" fill="#3A5874" text-anchor="end">19</text>
+    <text class="sans" x="64" y="634" font-size="16.5" fill="#9FB4C8">Open to <tspan fill="#E6F1FF" font-weight="700">internships</tspan> <tspan fill="#E6F1FF" font-weight="700">and</tspan> <tspan fill="#E6F1FF" font-weight="700">summer</tspan> <tspan fill="#E6F1FF" font-weight="700">programs</tspan> in data, AI, technology and engineering.</text>
+    </g>
+    <rect class="blink" x="64" y="642" width="10" height="3" fill="#22D3EE"/>
+    <rect x="1" y="1" width="1198" height="689" rx="17" fill="none" stroke="#1E4A6E" stroke-width="2"/>
   </g>
 </svg>
